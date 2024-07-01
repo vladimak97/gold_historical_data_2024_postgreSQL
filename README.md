@@ -4,7 +4,7 @@ This dataset offers intermediate-level exercises in PostgreSQL, using NASDAQ Gol
 
 **1. Find the date with the highest volatility, defined as the difference between the highest (High) and lowest (Low) prices for a single day.**
 
-&gt;SELECT Date, (High - Low) AS Volatility
+'SELECT Date, (High - Low) AS Volatility'
 FROM goldhistoricaldata
 ORDER BY Volatility DESC
 LIMIT 1;
